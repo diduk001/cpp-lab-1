@@ -4,4 +4,4 @@ cmake_minimum_required(VERSION 2.8.12) # Минимальная допустим
 add_executable (helloWorld main.c) # Бинарный файл находится в build/helloWorld
 add_compile_options(-Wall -Wextra -Wpedantic) # Опции компиляции для предупреждений
 set_property(TARGET helloWorld PROPERTY C_STANDARD 99) # Используем стандарт C99
-set(EXECUTABLE_OUTPUT_PATH ..)
+set(EXECUTABLE_OUTPUT_PATH ..) # Путь скомпилированной программы
